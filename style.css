@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6) ),url(https://swall.teahub.io/photos/small/18-187156_black-on-black-things-business-computer-desk-diary.jpg);
+    height: 100vh;
+    -webkit-box-size:cover ;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.navbar-brand{
+    font-family: big john;
+}
+.nav-link{
+    font-family: poppins;
+}
+.banner-btn a{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+}
+.banner-btn a.active{
+    background: #fff;
+    border-color: #0f0f0f;
+    color: #000;
+}
+.text-area{
+    font-size: 55px;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-area span{
+    color: #fff;
+}
